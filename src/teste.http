@@ -1,0 +1,12 @@
+### Adaugă un apartament nou
+POST http://localhost:8080/api/listings
+Content-Type: application/json
+
+{
+  "name": "Apartament modern în centru",
+  "price": 350.50,
+  "neighborhood": "Manhattan"
+}
+
+### Extrage lista de apartamente
+GET http://localhost:8080/api/listings
